@@ -20,6 +20,7 @@
 	
 ## 3일차
 - 라즈베리파이 학습
+	- 서비스 실행, 확인, 종료
+		- systemctl [start|stop|status|restart] 서비스명
 	- 통신 설정
 	- 리눅스 일반
-	
