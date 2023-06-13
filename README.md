@@ -39,4 +39,11 @@
 - 라즈베리파이 학습
 	- 네트워크 세팅(VNC)
 	- RBG LED / Button Click
-	
+	- 온습도 센서
+	- 서보모터
+
+## 6일차
+- 라즈베리파이 학습
+	- MQTT 통신
+		- MQTT Broker IP, port 설정
+		- RPi <--> WPF
