@@ -1,7 +1,7 @@
 # LED RGB 깜빡이기
 import RPi.GPIO as GPIO
 import time
-\
+
 is_run = True
 red = 17
 green = 27
