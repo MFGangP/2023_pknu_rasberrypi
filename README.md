@@ -45,5 +45,5 @@
 ## 6일차
 - 라즈베리파이 학습
 	- MQTT 통신
-		- MQTT Broker IP, port 설정
+		- MQTT Broker IP, port 설정 계정설정(옵션)
 		- RPi <--> WPF
