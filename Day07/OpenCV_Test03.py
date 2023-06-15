@@ -12,7 +12,10 @@ cam.start()
 
 while True:
     frame = cam.capture_array()
-    cv2.imshow('piCam', frame)
+
+    frame_blur = cv2.blur(frame, (10,10)) # 흐릿하게
+
+    cv2.imshow('piCam', frame_blur)
     if cv2.waitKey(1) == ord('q'):
         break
 

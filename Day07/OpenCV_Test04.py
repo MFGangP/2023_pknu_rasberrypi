@@ -12,7 +12,13 @@ cam.start()
 
 while True:
     frame = cam.capture_array()
+
+    qr = cv2.QRCodeDetector()
+    data, box, str_qrcode = qr.detectAndDecode(frame)
+    print(data)
+
     cv2.imshow('piCam', frame)
+    
     if cv2.waitKey(1) == ord('q'):
         break
 
