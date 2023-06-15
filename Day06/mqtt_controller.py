@@ -72,7 +72,6 @@ class subscriber(Thread):
         self.topic = "pknu/monitor/control/"
         print('subscriber 스레드 시작')
         self.client = mqtt.Client(client_id=self.clientId) # 설계대로
-
     def run(self): # Thread.start() 함수를 실행하면 실행되는 함수
         self.client.on_connect = self.onConnect # 접속 성공 시그널 처리
         self.client.on_message = self.onMessage # 접속 후 메시지가 수신되면 처리 - 핵심
